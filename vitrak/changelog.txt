@@ -1,0 +1,105 @@
+---------------------------------------------------------------------
+Version: 1.1.0 - 15-01-2022
+---------------------------------------------------------------------
+
+Update:
+- WooCommerce 6.1.0
+
+---------------------------------------------------------------------
+Version: 1.0.9 - 05-01-2022
+---------------------------------------------------------------------
+
+Update:
+- Style for Elementor 3.5.0
+- Style of Wishlist loading icon
+- Style Orders Table
+- Revolution 6.5.12
+
+---------------------------------------------------------------------
+Version: 1.0.8 - 20-09-2021
+---------------------------------------------------------------------
+
+Update:
+- Update WooCommerce 5.6.0
+- Update Slider Revolution 6.5.8
+
+---------------------------------------------------------------------
+Version: 1.0.7 - 24-06-2021
+---------------------------------------------------------------------
+
+Update:
+- Update Import Data
+
+---------------------------------------------------------------------
+Version: 1.0.6 - 23-04-2021
+---------------------------------------------------------------------
+
+New:
+- Homepage 09, Header 09, Footer 09
+- Shortcode: Product 19, Blog 08, Tabs 06, Testmonials 06, Countdown 06, Newsletter 09
+- Slider Revolution 09
+
+Fixed:
+- Link of item in Theme Options / Header / Header Infomation not right
+- Button change Grid-List in shop page on mobile version not show
+
+Remove:
+- Shortcode: Iconbox
+
+---------------------------------------------------------------------
+Version: 1.0.5 - 15-03-2021
+---------------------------------------------------------------------
+
+Fixed:
+- Submenu in Vertical Menu show not right
+- Button Update Cart cannot be enabled when change anything in Cart
+
+---------------------------------------------------------------------
+Version: 1.0.4 - 05-03-2021
+---------------------------------------------------------------------
+
+Update:
+- update Quick View button ( YITH WooCommerce Quick View 1.5.0 )
+- style columns in section Elementor
+- add filter 'ovic_dokan_sold_by_text' to change sold-by-text of Dokan
+
+Fixed:
+- Fixed logout link mobile menu
+
+---------------------------------------------------------------------
+Version: 1.0.3 - 06-02-2021
+---------------------------------------------------------------------
+
+Update:
+- update import and template elementor
+- style container for Revolution
+- preview image of Theme Options / Mobile / Mobile Layout
+
+---------------------------------------------------------------------
+Version: 1.0.2 - 23-01-2021
+---------------------------------------------------------------------
+
+New:
+- RTL Language supported
+- Mobile Version
+- Multi-Vendors Plugin supported
+
+Update:
+- style Product Thumbnails in Product Page when hasn't slider
+
+---------------------------------------------------------------------
+Version: 1.0.1 - 14-01-2021
+---------------------------------------------------------------------
+
+Fixed:
+- header search error
+
+Update:
+- lazy load core
+- style post formats
+
+---------------------------------------------------------------------
+Version: 1.0.0
+---------------------------------------------------------------------
+
+Initial release

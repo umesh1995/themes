@@ -1,0 +1,6 @@
+a.link-cart { 
+    display: none; 
+}
+.logged-in a.link-cart { 
+    display: block; 
+}

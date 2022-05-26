@@ -1,0 +1,170 @@
+/*==========================================================================
+ICON
+===========================================================================*/
+i.fa-angle-right:before,
+span.fa-angle-right:before{
+    content: "\f104";
+}
+i.fa-angle-left:before,
+span.fa-angle-left:before{
+    content: "\f105";
+}
+i.fa-angle-double-right:before,
+span.fa-angle-double-right:before{
+    content: "\f100";
+}
+i.fa-angle-double-left:before,
+span.fa-angle-double-left:before{
+    content: "\f101";
+}
+i.fa-caret-right:before,
+span.fa-caret-right:before{
+    content: "\f0d9";
+}
+i.fa-caret-left:before,
+span.fa-caret-left:before{
+    content: "\f0da";
+}
+i.fa-arrow-circle-right:before,
+span.fa-arrow-circle-right:before{
+    content: "\f0a8";
+}
+i.fa-arrow-circle-left:before,
+span.fa-arrow-circle-left:before{
+    content: "\f0a9";
+}
+i.fa-chevron-circle-right:before,
+span.fa-chevron-circle-right:before{
+    content: "\f137";
+}
+i.fa-chevron-circle-left:before,
+span.fa-chevron-circle-left:before{
+    content: "\f138";
+}
+.main-icon-back:before{
+    content: "\e903";
+}
+.main-icon-next:before{
+    content: "\e902";
+}
+.main-icon-back-2:before{
+    content: "\e907";
+}
+.main-icon-next-2:before{
+    content: "\e906";
+}
+.main-icon-back-3:before{
+    content: "\e91b";
+}
+.main-icon-next-3:before{
+    content: "\e91a";
+}
+.main-icon-back-4:before{
+    content: "\e91d";
+}
+.main-icon-next-4:before{
+    content: "\e91c";
+}
+.main-icon-back-5:before{
+    content: "\e91f";
+}
+.main-icon-next-5:before{
+    content: "\e91e";
+}
+/*==========================================================================
+ELEMENTOR
+===========================================================================*/
+@media (min-width: 768px){
+    .elementor-widget-icon-box.elementor-position-left .elementor-icon-box-wrapper{
+        text-align: left;
+    }
+    .elementor-widget-icon-box.elementor-position-right .elementor-icon-box-wrapper{
+        text-align: right;
+    }
+}
+/*==========================================================================
+THEME
+===========================================================================*/
+[class*=" col-xs-"]{
+    float: right;
+}
+@media (min-width: 768px){
+    [class*="col-sm-"]{
+        float: right;
+    }
+}
+@media (min-width: 992px){
+    [class*="col-md-"]{
+        float: right;
+    }
+}
+@media (min-width: 1200px){
+    [class*="col-lg-"]{
+        float: right;
+    }
+}
+@media (min-width: 1500px){
+    [class*="col-bg-"]{
+        float: right;
+    }
+}
+@media (max-width: 479px){
+    [class*="col-ts-"]{
+        float: right;
+    }
+}
+/* rtl-bg*/
+.ovic-rtl-bg .elementor-section.rtl-bg.effect > .elementor-container{
+    position: static;
+    background: inherit;
+}
+.ovic-rtl-bg .elementor-column.rtl-bg > .elementor-column-wrap::before,
+.ovic-rtl-bg .elementor-section.rtl-bg.effect > .elementor-container::before,
+.ovic-rtl-bg .elementor-section.rtl-bg:not(.effect)::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: inherit;
+    -webkit-transform: scale(-1,1);
+    -moz-transform: scale(-1,1);
+    -ms-transform: scale(-1,1);
+    -o-transform: scale(-1,1);
+    transform: scale(-1,1);
+    pointer-events: none;
+}
+.ovic-rtl-bg .elementor-widget-ovic_testmonials.rtl-bg .ovic-testmonials.style-04 .avatar img,
+.ovic-rtl-bg .elementor-widget-image.rtl-bg img,
+.ovic-rtl-bg .elementor-widget-ovic_testmonials.rtl-bg .background,
+.ovic-rtl-bg .elementor-widget-ovic_banner.rtl-bg .background{
+    -webkit-transform: scale(-1,1);
+    -moz-transform: scale(-1,1);
+    -ms-transform: scale(-1,1);
+    -o-transform: scale(-1,1);
+    transform: scale(-1,1);
+}
+.ovic-rtl-bg .elementor-widget-ovic_testmonials.rtl-bg .background{
+    background-position: right top;
+}
+/* mega menu */
+.box-header-nav .main-menu > .menu-item > .megamenu{
+    left: 0;
+    right: auto;
+}
+.ovic-menu-next-panel:before{
+    content: "\f104";
+}
+.ovic-menu-panels-actions-wrap .ovic-menu-close-btn{
+    left: 0;
+    right: auto;
+}
+.ovic-menu-panels-actions-wrap .ovic-menu-prev-panel{
+    left: auto;
+    right: 0;
+}
+div.ovic-menu-clone-wrap .ovic-menu-panel .ovic-menu-next-panel{
+    left: 0;
+    right: auto;
+}
