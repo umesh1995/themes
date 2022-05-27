@@ -6,6 +6,7 @@ JQuery(document).ready(function(){
     var phone = JQuery('#phone').val();
     var business_name = JQuery('#business_name').val();
     var business_address = JQuery('#business_address').val();
+    var business_type = JQuery('#business_type').val();
     var password = JQuery('#password').val();
     // I am applying validation here
     $('#validation').validate({
@@ -46,4 +47,4 @@ JQuery(document).ready(function(){
      $('#insert').html(response);    
      }
    });   
-   });
+   }));

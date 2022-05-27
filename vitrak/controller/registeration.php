@@ -9,32 +9,37 @@ $response['data'] = $data;
 $response['status'] = 'success';
 
 //Need registration.php for data validation
-$firstname = sanitize_text_field($form_data['firstname']);
-$lastname = sanitize_text_field($form_data['lastname']);
-$phonenumber = sanitize_text_field($form_data['phonenumber']);
+$username = sanitize_text_field($form_data['username']);
 $email = sanitize_text_field($form_data['email']);
+$phone = sanitize_text_field($form_data['phone']);
+$business_name = sanitize_text_field($form_data['business_name']);
+$business_address = sanitize_text_field($form_data['business_address']);
+$business_type = sanitize_text_field($form_data['business_type']);
 $password = sanitize_text_field($form_data['password']);
 
 //Put the Validation Here. Check for blanks, etc.
 
 //Create the user
 $user_pass = wp_generate_password(); //Why are we using this? The user will already have a password.
-$firstname = sanitize_text_field($form_data['firstname']);
-$lastname = sanitize_text_field($form_data['lastname']);
-$phonenumber = sanitize_text_field($form_data['phonenumber']);
+$username = sanitize_text_field($form_data['username']);
 $email = sanitize_text_field($form_data['email']);
+$phone = sanitize_text_field($form_data['phone']);
+$business_name = sanitize_text_field($form_data['business_name']);
+$business_address = sanitize_text_field($form_data['business_address']);
+$business_type = sanitize_text_field($form_data['business_type']);
 $password = sanitize_text_field($form_data['password']);
 
 //Create the usersword();
 $user = array(
-    'user_login' => $phonenumber,
-    'user_pass' => $password,
-    'first_name' => $firstname,
-    'last_name' => $lastname,
+    'user_login' => $username,
+    'user_pass' => $password,   
     'user_email' => $email,
-    'phone_number' => $phonenumber,
+    'phone_number' => $phone,
     'password' => $password,
-    'role' => 'customer'
+    'business_name' => $business_name,
+    'business_address' => $business_address,
+    'business_type' => $business_type,
+    'role' => 'Vendor'
 );
 $user_id = wp_insert_user($user);
 
